@@ -1,3 +1,4 @@
+#!/bin/bash
 # Creamos los grupos secundarios
 sudo groupadd p1c2_2024_gAlumno
 sudo groupadd p1c2_2024_gProfesores
