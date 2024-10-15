@@ -9,7 +9,7 @@ echo "Grupos secundarios creados"
 #Asignamos a la variable 'password' el hash de mi usuario
 
 usuario=$(whoami)
-password=$(sudo cat /etc/shadow | grep $usuario | awk -F ':' '{print $2})'
+password=$(sudo cat /etc/shadow | grep $usuario | awk -F ':' '{print $2}')
 
 #Creando los usuarios
 
